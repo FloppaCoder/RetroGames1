@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 10px;	
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #210321;
+}
+
+.imagenPrincipal {
+    background-image: url(https://i.pinimg.com/originals/ca/2a/fe/ca2afeee32ba6976539d9c69d163a342.png);
+    filter: brightness(25%);
+}
+
+.fondoInicio .imagenPrincipal{ 
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+.titulo1{
+    font-size: 40px;
+    position: relative;
+    color: white;
+    text-align:center;
+    margin-top: 150px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.RetroGames{
+    font-size: 60px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#RetroNeon{
+    margin-top:10%;
+    position: relative;
+    padding-left: 26%;
+    top: 0%;
+    color: aqua; 
+    text-shadow: 0 0 7px rgb(2, 219, 219);
+}
+
+#cyanRaya{
+    box-shadow:
+    0 0 0.1vw  0.2vw #fff7f7,
+    0 0 0.6vw  0.6vw #4dffdb,
+    0 0   2.5vw  0.4vw #00f0c0,
+
+    inset 0 0 0.5vw  0vw  #fff7f7,
+    inset 0 0 0.4vw  0.2vw  #4dffdb,
+    inset 0 0 0.5vw  0.2vw  #00f0c0;
+}
+
+.Scorpion{
+    margin-top:4%;
+    position: relative;
+    padding-left: 15%;
+    top: -265px;
+}
+
+.SubZero{
+    margin-top:4%;
+    position: relative;
+    padding-left: 78%;
+    top: -450px;
+}
+
+.rota-horizontal{
+    transform: scaleX(-1);
+}
+    
+#GamesNeon{
+    margin-top:4%;
+    position: relative;
+    padding-left: 52%;
+    top: -111px;
+    color: magenta; 
+    text-shadow: 0 0 15px rgb(139, 15, 133),0 0 5px rgb(194, 24, 186);
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+.textoNeonRetro{
+    opacity: 0;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 90px;
+    position: relative;
+
+    animation-name: animacionRetro;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.textoNeonGames{
+    opacity: 0;
+    font-family: 'Press Start 2P', cursive;
+    padding-left: 199.8%;
+    font-size: 90px;
+    position: relative;
+
+    animation-name: animacionGames;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.cuadro{
+    box-shadow:
+    0 0 0.1vw  0.2vw #fff7f7,
+    0 0 0.6vw  0.6vw #e97272,
+    0 0   2.5vw  0.4vw #e50b0b,
+
+    inset 0 0 2.5vw  0.4vw  #e50b0b,
+    inset 0 0 0.4vw  0.2vw  #e97272,
+    inset 0 0 0.5vw  0.2vw  #fff7f7;
+
+    font-family: 'Press Start 2P', cursive;
+    
+    color: white;
+    font-size: 40px;
+
+    
+    text-align: center;
+    position: relative;
+    margin: auto;
+    
+
+    width: 40%;
+    height: 40%;
+}
+
+#rojo{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 130px;
+
+    box-shadow:
+    0 0 0.1vw  0.2vw #fff7f7,
+    0 0 0.6vw  0.6vw #e97272,
+    0 0   2.5vw  0.4vw #e50b0b,
+
+    inset 0 0 2.5vw  0.4vw  #e50b0b,
+    inset 0 0 0.4vw  0.2vw  #e97272,
+    inset 0 0 0.5vw  0.2vw  #fff7f7;
+
+}
+
+.img1-inicio{
+    margin-top:4%;
+    position: relative;
+    padding-left: 55%;
+    top: -540px;
+}
+
+#verde{
+    display: inline-block;
+    position: relative;
+    top: 300px;
+    left: 680px;
+
+    box-shadow:
+    0 0 0.1vw  0.2vw #fff7f7,
+    0 0 0.6vw  0.6vw #74dd66,
+    0 0   2.5vw  0.4vw #1cf000,
+
+    inset 0 0 0.5vw  0vw  #fff7f7,
+    inset 0 0 0.4vw  0.2vw  #74dd66,
+    inset 0 0 0.5vw  0.3vw  #1cf000;
+}
+
+.img2-inicio{
+    margin-top:4%;
+    position: relative;
+    padding-left: 15%;
+    top: -160px;
+}
+
+#cyan{
+
+    display: inline-block;
+    position: relative;
+    top: 600px;
+    margin-bottom: 180px;
+    left: 130px;
+
+    box-shadow:
+    0 0 0.1vw  0.2vw #fff7f7,
+    0 0 0.6vw  0.6vw #4dffdb,
+    0 0   2.5vw  0.4vw #00f0c0,
+
+    inset 0 0 0.5vw  0vw  #fff7f7,
+    inset 0 0 0.4vw  0.2vw  #4dffdb,
+    inset 0 0 0.5vw  0.2vw  #00f0c0;
+}
+
+.img3-inicio{
+    margin-top:4%;
+    position: relative;
+    padding-left: 65%;
+    top: -1px;
+}
+
+@keyframes animacionRetro {
+0% {left: 0%; top: 0%; color: rgb(0, 48, 48);}
+25% {left: 0%; top: 0%; color: rgb(0, 48, 48);}
+50% {left: 90%; top: 0%; color: rgb(0, 48, 48); }
+75% {left: 90%; top: 0%; color: aqua;}
+100% {left: 90%; top: 0%; color: aqua; text-shadow: 0 0 7px rgb(2, 219, 219); opacity: 1;}
+}
+
+@keyframes animacionGames {
+0% {right: 0%; top: 0%; color: rgb(46, 0, 46);}
+25% {right: 0%; top: 0%; color: rgb(46, 0, 46);}
+50% {right: 70%; top: 0%; color: rgb(46, 0, 46);}
+75% {right: 70%; top: 0%; color: magenta;}
+100% {right: 70%; top: 0%; color: magenta; text-shadow: 0 0 15px rgb(139, 15, 133),0 0 5px rgb(194, 24, 186); opacity: 1;}
+}
+
+.texto-encima{
+    position: absolute;
+    top: 35%;
+}
+
+.linea{
+    align-items: center;
+    margin-top: 0.8%;
+    margin-right: 0%;
+    position: relative;
+}
+
+.fade_up{
+    opacity: 0.1;
+    transition: all 3s;
+}
+
+.transform_up {
+    transform: translateY(20%);
+}
+
+.transform_down{
+    transform: translateY(-20%);
+}
+
+.transform_left{
+    transform: translateX(20%);
+}
+
+.transform_right{
+    transform: translateX(-20%);
+}
+
+
+.aparece{
+opacity: 1;
+transform: none;
+}
+
+.contenedor {
+	width: 95%;
+	margin: auto;
+    
+}
+
+
+header .fondoHeader {
+	background-image:url(https://i.pinimg.com/originals/ca/2a/fe/ca2afeee32ba6976539d9c69d163a342.png);
+	filter: brightness(25%);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logotipo {
+	font-family: 'Press Start 2P', cursive;
+	font-weight: normal;
+	color: #51c0cc;
+	font-size: 30px;
+}
+
+header nav a {
+	color: #AAA;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: #FFF;
+}
+
+.footer-content{
+    margin-top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title{
+	font-family: 'Press Start 2P', cursive;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+h3{
+	color: purple;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: purple;
+}
+
+.footer-p{
+    color: white;
+}
+
+.footer-bottom  {
+    color: white;
+    box-shadow:
+    0 0 0.1vw  0.2vw #fff7f7,
+    0 0 0.6vw  0.6vw #ff56ff,
+    0 0   3vw  0.4vw #ff00ff,
+
+    inset 0 0 0.5vw  0vw  #fff7f7,
+    inset 0 0 0.4vw  0.2vw  #ff56ff,
+    inset 0 0 0.5vw  0.2vw  #ff00ff;
+    position: relative;
+    background: purple;
+    width: 1349px;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+p{
+	color: white;
+}
+
+h3{
+	color: purple;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+	color: white;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: purple;
+}

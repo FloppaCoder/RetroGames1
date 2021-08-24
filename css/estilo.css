@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background:url(../img/Slider\ Fondo.gif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-register{
+	width: 400px;
+    background: #210321;
+    padding: 30px;
+    margin: auto;
+    margin-top: 28px;
+    border-radius: 10px;
+    font-family: 'calibri';
+    color: #51c0cc;
+    box-shadow:
+    0 0 0.1vw  0.2vw #fff7f7,
+    0 0 0.6vw  0.6vw #ff56ff,
+    0 0   3vw  0.4vw #ff00ff,
+
+    inset 0 0 0.5vw  0vw  #fff7f7,
+    inset 0 0 0.4vw  0.2vw  #ff56ff,
+    inset 0 0 0.5vw  0.2vw  #ff00ff;
+    position: relative;
+	text-align: center;
+}
+
+.form-register h4{
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.controls{
+	width: 100%;
+	background: white;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid cyan;
+	font-family: 'calibri';
+	font-size: 18px;
+	color: purple;
+}
+
+.form-register p{
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+	padding: 4px;
+	color: magenta
+}
+
+.form-register a{
+	color: white;
+	text-decoration: none;
+
+}
+
+
+.form-register a:hover{
+	text-decoration: underline;
+	
+}
+
+.form-register .botons{
+	text-align: center;
+	width: 100%;
+	background: cyan;
+	border: 9000px;
+	padding: 5px;
+	color: white;
+	margin: 19px 0;
+	font-size: 16px;
+}
+
+.title1{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 10;
+	color: aqua; text-shadow: 0 0 7px rgb(2, 219, 219);
+}
+
+.title2{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 10;
+	color: magenta; text-shadow: 0 0 15px rgb(139, 15, 133),0 0 5px rgb(194, 24, 186);
+}
